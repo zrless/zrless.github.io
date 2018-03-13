@@ -1,0 +1,143 @@
+body{
+	position: relative;
+	background: #f3f5f7;
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 1278px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 41px;
+}
+
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.nav .active{
+	background: rgba(0,0,0,0.5);
+}
+.center{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+}
+.nav .center ul{
+	padding: 10px 0;
+	height: 45px;
+	box-shadow: 5px 5px 10px #333333;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: url(../images/banner3.jpg) no-repeat -550px -800px;
+	cursor: pointer;
+}
+.nav .center ul:hover{
+	transition: 0.2s all;
+}
+.nav .center ul li{
+	height: 30px;
+	text-align: center;
+}
+.nav .center ul li:nth-child(1):hover{
+	background: rgba(0,0,0,0.5);
+}
+.nav .center ul li:nth-child(2):hover{
+	background: rgba(0,0,0,0.5);
+}
+.nav .center ul li:nth-child(4):hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.nav .center ul li .info{
+	float: right;
+    transition: 0.3s all;
+}
+.nav .center ul li:nth-child(1):hover .info{
+	margin-top: -6px;
+}
+
+.nav .center ul li:nth-child(2):hover .info{
+	margin-top: -6px;
+}
+
+.nav .center ul li:nth-child(4):hover .info{
+	margin-top: -6px;
+}
+
+.nav .center ul li h5{
+	font-size: 22px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.container3D{
+	background: #eee;
+	margin-left:80px;
+	float:left;
+}
+
+.location {
+	position: absolute;
+	top: 530px;
+	left: 80px;
+}
+
+.location .center ul{
+	padding: 15px 0;
+	height: 84px;
+	box-shadow: 0 4px 20px #cecece;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background:url(../images/bgImg.jpg) no-repeat center center;
+}
+.location .center ul:hover{
+	transition: 0.2s all;
+}
+.location .center ul li{
+	
+	text-align: center;
+	
+}
+.location .center ul li img{
+	margin-right: 25px;
+	margin-top: 3px;
+	
+}
+.location .center ul li .img{
+	float: left;
+	transition: 0.2s all;
+	
+}
+.location .center ul li .info{
+	float: right;
+	width: 300px;
+	height: 70px;
+	background: rgba(0,0,0,0.7);
+    transition: 0.3s all;
+}
+.location .center ul li:hover .info{
+	margin-top: -15px;
+}
+
+.location .center ul li h5{
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.location .center ul li p{
+	margin-top: 5px;
+	font-size: 16px;
+	color: #CCCCCC;
+	
+}
+
+
+
+

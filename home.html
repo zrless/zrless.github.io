@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" href="https://os.alipayobjects.com/rmsportal/cfYsvciteYQGywxceeGI.css" />
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+	</head>
+
+	<body>
+		<div id="nav">
+			<div id="logo">
+				<a href="https://zrless.github.io/"><img src="img/logo.png" /></a>
+			</div>
+			<ul>
+				<li>
+					<a class="active" href="">首页</a>
+				</li>
+				<li>
+					<a href="">专业技能</a>
+				</li>
+				<li>
+					<a href="">兴趣爱好</a>
+				</li>
+				<li>
+					<a href="">私人图库</a>
+				</li>
+			</ul>
+		</div>
+		<div id="slide">
+			<div class="container3D flip">
+				<div class="wrapper3D">
+
+				</div>
+				<div class="slide3D-pagination"></div>
+				<div class="slide3D-prev-button"></div>
+				<div class="slide3D-next-button"></div>
+			</div>
+		</div>
+
+		<div id="section">
+			<div class="maskone">
+				<h2>基本信息</h2>
+				<div id="line"></div>
+
+				<ul>
+					<li>
+						<a href="">
+							<img src="img/chzu.png" />
+							<p>滁州学院</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/ME head.jpg" />
+							<p>张&nbsp;&nbsp;锐</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/net.jpg" />
+							<p>计算机专业</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="mask">
+				<h2>Do More &nbsp;& &nbsp; Be Better&nbsp;!</h2>
+				<ul>
+					<li>
+						<a href="">
+							<img src="img/tel.png" />
+							<p>13135506335</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/mail.png" />
+							<p>zrless@163.com</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/location.png" />
+							<p>南京技鼎软件科技</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<p>Copyright © 2017 Rico_Zhang</p>
+		</footer>
+
+		<script src="https://os.alipayobjects.com/rmsportal/RnYtVBKOUzXXOiZIqFtF.js"></script>
+		<script type="text/javascript">
+			var width = 1200;
+			var height = 300;
+			var mySlide2 = new Slide3D('.flip', {
+				width: width,
+				height: height,
+				effect: 'flip', // flip | turn | slide | flat | fragment
+				sources: ['img/banner1.jpg',
+					'img/banner2.jpg',
+					'img/banner3.jpg',
+					'img/banner4.jpg'
+				],
+				box: {
+					rows: 6, // 切割行
+					cols: 3 // 切割列
+				},
+				pagination: true, // 是否添加分页器
+				paginationClickable: true,
+				autoplay: 3000,
+				autoplayDisableOnInteraction: false
+			});
+		</script>
+	</body>
+
+</html>

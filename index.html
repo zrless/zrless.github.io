@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/welcome.css" />
+		<script src="js/move.js"></script>
+		<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="header">
+				<img alt="logo" class="mylogo" src="img/logo.png"/>
+				<h1 class="myname">Rico.Zhang</h1>
+				<h4>(Be Better!)</h4>
+				<h3 class="btn"><a href="https://zrless.github.io/home">进入主页</a></h3>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			$('.btn').mouseover(function(){
+				$('.header h4').html("Let's Go->->");
+			});
+			
+			$('.btn').mouseout(function(){
+				$('.header h4').html("(Be Better!)");
+			})
+
+		</script>
+	</body>
+</html>

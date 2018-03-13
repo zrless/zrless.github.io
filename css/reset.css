@@ -1,0 +1,40 @@
+body,div,dl,dt,dd,p,span,h1,h2,h3,h4,h5,h6,ul,ol,li,a,input,textare {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../img/selectlogo.png) no-repeat center right;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
