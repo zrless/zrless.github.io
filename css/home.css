@@ -114,6 +114,7 @@ a{
 #section ul li:nth-child(2) img{
 	height: 140px;
 	width: 140px;
+	object-fit: cover;
 	/*margin-top: -10px;*/
 }
 #section ul li img:hover{
